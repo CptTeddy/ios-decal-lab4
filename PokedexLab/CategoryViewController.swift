@@ -21,6 +21,8 @@ class CategoryViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    @IBOutlet weak var tableViewInCategory: UITableView!
 
 
 }
