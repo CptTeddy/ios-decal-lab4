@@ -11,4 +11,9 @@ import UIKit
 
 class TableViewCell : UITableViewCell {
     
+    @IBOutlet weak var pokemonImage: UIImageView!
+    @IBOutlet weak var pokemonStats: UILabel!
+    @IBOutlet weak var pokemonNumber: UILabel!
+    @IBOutlet weak var pokemonName: UILabel!
+    
 }
