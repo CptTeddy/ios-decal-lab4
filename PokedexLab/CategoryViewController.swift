@@ -42,7 +42,6 @@ class CategoryViewController: UIViewController, UITableViewDelegate, UITableView
                             let image = UIImage(data: imageData)
                             self.cachedImages[indexPath.row] = image
                             cell.pokemonImage.image = UIImage(data: imageData)
-                            
                         } else {
                             print("Couldn't get image: Image is nil")
                         }

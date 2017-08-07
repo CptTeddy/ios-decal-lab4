@@ -230,6 +230,7 @@
 				TargetAttributes = {
 					3C6CFD061E62850E00D991A0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8QNJVXHBVB;
 						ProvisioningStyle = Automatic;
 					};
 					3C6CFD1A1E62850F00D991A0 = {
@@ -446,9 +447,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8QNJVXHBVB;
 				INFOPLIST_FILE = PokedexLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.PokedexLab;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.PokedexLab123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -458,9 +460,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8QNJVXHBVB;
 				INFOPLIST_FILE = PokedexLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.PokedexLab;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.PokedexLab123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
