@@ -19,6 +19,7 @@ class CategoryViewController: UIViewController, UITableViewDelegate, UITableView
         tableViewInCategory.delegate = self
         tableViewInCategory.dataSource = self
     }
+    
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (pokemonArray?.count)!
@@ -48,6 +49,7 @@ class CategoryViewController: UIViewController, UITableViewDelegate, UITableView
                     } else {
                         print("Couldn't get response code")
                     }
+                    
                 }
             }
             downloadPicTask.resume()
