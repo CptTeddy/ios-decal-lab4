@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Haneke
 
 class CategoryViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -33,26 +34,7 @@ class CategoryViewController: UIViewController, UITableViewDelegate, UITableView
             
         } else {
             let url = URL(string: (pokemon.imageUrl)!)!
-            let session = URLSession(configuration: .default)
-            let downloadPicTask = session.dataTask(with: url) { (data, response, error) in
-                if let e = error {
-                    print("Error downloading picture: \(e)")
-                } else {
-                    if let _ = response as? HTTPURLResponse {
-                        if let imageData = data {
-                            let image = UIImage(data: imageData)
-                            self.cachedImages[indexPath.row] = image
-                            cell.pokemonImage.image = UIImage(data: imageData)
-                        } else {
-                            print("Couldn't get image: Image is nil")
-                        }
-                    } else {
-                        print("Couldn't get response code")
-                    }
-                    
-                }
-            }
-            downloadPicTask.resume()
+            cell.pokemonImage.hnk_setImage(from: url)
         }
         cell.pokemonName.text = pokemon.name
         cell.pokemonNumber.text = "#" + String(describing: pokemon.number!)

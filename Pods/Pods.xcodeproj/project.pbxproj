@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027043AE210EF10A365B63F92E09B1E9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A4BD1CEF7E623C71F97A54BFC3616 /* ImageIO.framework */; };
+		2341425E462165C23B8F2BA9A8F1B283 /* Haneke.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8713BD4C355F5F6EBB90C4373F479E /* Haneke.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38D41CB1353474299587A71FE52EC357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		4087F3E3F880CE272FD8176E514F1C30 /* UIView+Haneke.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3B15B654EA41006A30478928034C2 /* UIView+Haneke.m */; };
+		438206579B92997964C03887110E6859 /* Pods-PokedexLabUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C394B62B39499464E5EE93A9C3CC50 /* Pods-PokedexLabUITests-dummy.m */; };
+		50D81CF11F67A5CC76AFFFA37AA137C5 /* HNKSimpleFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652CA9D6F90CE7D4D02FE6C1B51C9CF /* HNKSimpleFetcher.m */; };
+		549D2198507E4F41B2C4990723B1199C /* Pods-PokedexLabUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EFFFB7D0D9233C255DDFCCADA14D96 /* Pods-PokedexLabUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		563C33CE6FEE824303FC1749040ECA31 /* UIButton+Haneke.h in Headers */ = {isa = PBXBuildFile; fileRef = E94CD03F179267865FA352F156FB3F08 /* UIButton+Haneke.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57E446F0417F57D47768278973A364D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		65F96389ABD720172033AA3142CBCCB0 /* Pods-PokedexLab-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF59E369C5619E70640F8671AA76920 /* Pods-PokedexLab-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66E5C78519E7F85D4FD1F8D1B2CB4B43 /* Pods-PokedexLabTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C28E116D208544AEA1D38768FFEEC20 /* Pods-PokedexLabTests-dummy.m */; };
+		689092F53E42FF7A6657420B541571D1 /* UIView+Haneke.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE04BA1D062F1E073B0BC4C17669918 /* UIView+Haneke.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68BF135FEF6DF1F1B034754CFC56F438 /* HNKCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E9AACFDF298774E6F97088555BE4C1C3 /* HNKCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C0267A86EF3FB0A7C8C76BC8B92D957 /* HNKNetworkFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 52927251E7D6F9C8A645C16E8C81D3C6 /* HNKNetworkFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83033B4410531030274DDC998E4A637F /* HNKDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE01B568B061EF4032CCAFA75EDA4F1 /* HNKDiskCache.m */; };
+		9BDE021DFA1EBF7E4FFC999C332DF797 /* HNKDiskFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FF793C1A4BD1BDA1B28FC0D6995EA050 /* HNKDiskFetcher.m */; };
+		A9F7FF0F6AB7999F1954413075842865 /* Pods-PokedexLabTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B7DBD1DBA96136233C46FBBCF5EF7A /* Pods-PokedexLabTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B42EC0EC6B575D6254494FFAA1B9A805 /* UIButton+Haneke.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D91D8FC4219081B70171FE50D539C /* UIButton+Haneke.m */; };
+		B4F74A893DC87DAC2FAB1702AE0A9888 /* Pods-PokedexLab-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B1DED6AFC71C1C8EE1BA407A7CB752 /* Pods-PokedexLab-dummy.m */; };
+		B91369B378B8E2C7057846E0D8E5E52D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		BEF86E92A8E855998E177F315B13C3D2 /* HNKNetworkFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 333DDE21A9608B9876DD7B89AE87FC52 /* HNKNetworkFetcher.m */; };
+		C7B391342328A03F785686B2541CF95E /* UIImageView+Haneke.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC24B9BFAB586AF1B0B00F1AFE9497F /* UIImageView+Haneke.m */; };
+		C94A609F6A546B2BEE4615CE3D199F8A /* HNKCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6B42EB5784338B96CFD586E350966 /* HNKCache.m */; };
+		CAC12A3959E82EBD5E2EEF740702378E /* UIImageView+Haneke.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A7F95D54BC2BC001019D7FE8A43A9E /* UIImageView+Haneke.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA2A08F5395464D9A6F6EBEB0D83C3B8 /* Haneke-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F34E7C772AD0C740A77CF93B59A792 /* Haneke-dummy.m */; };
+		DE9077F5AA0ABD634E60E83E37D2A650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		DF2DC79BF0A7E933C8AD0BE51E743DFB /* HNKDiskFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D9964F8D7B8C7B5446EEB3E210FB3A1B /* HNKDiskFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E809685890040F1B42905C266BFDBC62 /* HNKDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 30907AE7ABA34C0F0023E7AEE3DDCCB4 /* HNKDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECD28302941BF906F4EDDC038C141861 /* Haneke-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BE1D5643556E3813144EB79E98502C /* Haneke-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A7685FDDC061C286D6DD07F15594C9 /* HNKSimpleFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A63760C7D916FC5853849AC63FCAEC4 /* HNKSimpleFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20320694AD930FAE2B7B5657199AA530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C9A027BD2B54E970B7931EF41EE0163;
+			remoteInfo = Haneke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D3F6FD84EB87E0C91444B18948F1BC /* Pods-PokedexLabUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PokedexLabUITests.modulemap"; sourceTree = "<group>"; };
+		18A2BD6370B0763F95821C231B4EDC5C /* Pods-PokedexLabUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokedexLabUITests-resources.sh"; sourceTree = "<group>"; };
+		19EBCE383FBD496956C99778B80DD944 /* Pods-PokedexLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexLab.release.xcconfig"; sourceTree = "<group>"; };
+		1CF07A2069023A2E4A56A8896A15AAAB /* Pods_PokedexLabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PokedexLabUITests.framework; path = "Pods-PokedexLabUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1BA83A1E432FF02B8A8864D2289EF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCE65B655B1D481643A8691754DEB71 /* Pods-PokedexLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexLabTests.release.xcconfig"; sourceTree = "<group>"; };
+		20FDAE5FABE48100F63DF1DD867981A0 /* Pods-PokedexLabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexLabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24C394B62B39499464E5EE93A9C3CC50 /* Pods-PokedexLabUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokedexLabUITests-dummy.m"; sourceTree = "<group>"; };
+		25F34E7C772AD0C740A77CF93B59A792 /* Haneke-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Haneke-dummy.m"; sourceTree = "<group>"; };
+		2838C0338688B5CD6FA02C968DE9F4D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1E8D0E86EF38AAF926C5F2759D5C3F /* Pods-PokedexLabTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokedexLabTests-frameworks.sh"; sourceTree = "<group>"; };
+		2F528CDF3C5B75A3A56C2EE11A5FDB87 /* Haneke-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haneke-prefix.pch"; sourceTree = "<group>"; };
+		2FD6B42EB5784338B96CFD586E350966 /* HNKCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKCache.m; path = Haneke/HNKCache.m; sourceTree = "<group>"; };
+		30907AE7ABA34C0F0023E7AEE3DDCCB4 /* HNKDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKDiskCache.h; path = Haneke/HNKDiskCache.h; sourceTree = "<group>"; };
+		317A50CC71CB82DA55BF19B3F8738A38 /* Pods-PokedexLabUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokedexLabUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		333DDE21A9608B9876DD7B89AE87FC52 /* HNKNetworkFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKNetworkFetcher.m; path = Haneke/HNKNetworkFetcher.m; sourceTree = "<group>"; };
+		392C587AC5ED54E20476503C177A9F2F /* Pods-PokedexLabTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokedexLabTests-resources.sh"; sourceTree = "<group>"; };
+		457F613452F8F5E4F2E307BEC8ADB8E7 /* Haneke.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Haneke.modulemap; sourceTree = "<group>"; };
+		45B7DBD1DBA96136233C46FBBCF5EF7A /* Pods-PokedexLabTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokedexLabTests-umbrella.h"; sourceTree = "<group>"; };
+		4C28E116D208544AEA1D38768FFEEC20 /* Pods-PokedexLabTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokedexLabTests-dummy.m"; sourceTree = "<group>"; };
+		4F1540BB829D566AEC131AA3F9159D3C /* Pods-PokedexLabTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokedexLabTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52927251E7D6F9C8A645C16E8C81D3C6 /* HNKNetworkFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKNetworkFetcher.h; path = Haneke/HNKNetworkFetcher.h; sourceTree = "<group>"; };
+		59D81DFC4D4C8A175508FD38038E5E56 /* Pods-PokedexLabUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokedexLabUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5B2D91D8FC4219081B70171FE50D539C /* UIButton+Haneke.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Haneke.m"; path = "Haneke/UIButton+Haneke.m"; sourceTree = "<group>"; };
+		5BEDBB5D12F12848D38EE3F18EB8D46A /* Pods-PokedexLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexLab.debug.xcconfig"; sourceTree = "<group>"; };
+		635A4BD1CEF7E623C71F97A54BFC3616 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		736A1528B0C92EB79982C4A95F35240E /* Pods-PokedexLabTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PokedexLabTests.modulemap"; sourceTree = "<group>"; };
+		839134B8F2A228EA3A4F426203112408 /* Pods-PokedexLabTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokedexLabTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84EFFFB7D0D9233C255DDFCCADA14D96 /* Pods-PokedexLabUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokedexLabUITests-umbrella.h"; sourceTree = "<group>"; };
+		8A63760C7D916FC5853849AC63FCAEC4 /* HNKSimpleFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKSimpleFetcher.h; path = Haneke/HNKSimpleFetcher.h; sourceTree = "<group>"; };
+		8AE04BA1D062F1E073B0BC4C17669918 /* UIView+Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Haneke.h"; path = "Haneke/UIView+Haneke.h"; sourceTree = "<group>"; };
+		91249F6A03817CF2C41D02315A69A13D /* Haneke.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Haneke.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93BE1D5643556E3813144EB79E98502C /* Haneke-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haneke-umbrella.h"; sourceTree = "<group>"; };
+		9652CA9D6F90CE7D4D02FE6C1B51C9CF /* HNKSimpleFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKSimpleFetcher.m; path = Haneke/HNKSimpleFetcher.m; sourceTree = "<group>"; };
+		9FE01B568B061EF4032CCAFA75EDA4F1 /* HNKDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKDiskCache.m; path = Haneke/HNKDiskCache.m; sourceTree = "<group>"; };
+		A66608D8CC6F9D00F3D5151E3A3F1215 /* Pods-PokedexLab.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PokedexLab.modulemap"; sourceTree = "<group>"; };
+		A8B1DED6AFC71C1C8EE1BA407A7CB752 /* Pods-PokedexLab-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokedexLab-dummy.m"; sourceTree = "<group>"; };
+		AFC24B9BFAB586AF1B0B00F1AFE9497F /* UIImageView+Haneke.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Haneke.m"; path = "Haneke/UIImageView+Haneke.m"; sourceTree = "<group>"; };
+		AFF59E369C5619E70640F8671AA76920 /* Pods-PokedexLab-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokedexLab-umbrella.h"; sourceTree = "<group>"; };
+		AFFC901DED64CA30AFDEA02167B8EB2A /* Pods_PokedexLabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PokedexLabTests.framework; path = "Pods-PokedexLabTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B959C98D9625003C6EC52BA78105CE88 /* Pods-PokedexLab-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokedexLab-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB9DFDD51D4289828E066719BA022A34 /* Pods-PokedexLab-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokedexLab-frameworks.sh"; sourceTree = "<group>"; };
+		C21F6BFAFBD45B1CE3581EA3F621283D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F3B15B654EA41006A30478928034C2 /* UIView+Haneke.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Haneke.m"; path = "Haneke/UIView+Haneke.m"; sourceTree = "<group>"; };
+		CB51C10E5717F5FE990050BDBE9C54B1 /* Pods-PokedexLab-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokedexLab-resources.sh"; sourceTree = "<group>"; };
+		CD924E91AA5FBB1053B3A460264617D1 /* Pods-PokedexLabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexLabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D27A25229DE88EEB33CE38DA7FFED536 /* Pods-PokedexLabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexLabUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9964F8D7B8C7B5446EEB3E210FB3A1B /* HNKDiskFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKDiskFetcher.h; path = Haneke/HNKDiskFetcher.h; sourceTree = "<group>"; };
+		DBC60D422DD3761A17FB63004F32A10C /* Pods-PokedexLabUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokedexLabUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF6298AEF903D5D10306EA6C26A8C7E4 /* Pods_PokedexLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PokedexLab.framework; path = "Pods-PokedexLab.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7506D08CDFF1B66A8D9BF8FC1C3798F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94CD03F179267865FA352F156FB3F08 /* UIButton+Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Haneke.h"; path = "Haneke/UIButton+Haneke.h"; sourceTree = "<group>"; };
+		E9AACFDF298774E6F97088555BE4C1C3 /* HNKCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKCache.h; path = Haneke/HNKCache.h; sourceTree = "<group>"; };
+		ED7D5CE45E9FDEC7FE8B9914450DE07A /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Haneke.framework; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8713BD4C355F5F6EBB90C4373F479E /* Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Haneke.h; path = Haneke/Haneke.h; sourceTree = "<group>"; };
+		F048F09F4493A87F93BB01CCF442ED53 /* Pods-PokedexLab-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokedexLab-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7A7F95D54BC2BC001019D7FE8A43A9E /* UIImageView+Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Haneke.h"; path = "Haneke/UIImageView+Haneke.h"; sourceTree = "<group>"; };
+		FF793C1A4BD1BDA1B28FC0D6995EA050 /* HNKDiskFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKDiskFetcher.m; path = Haneke/HNKDiskFetcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35D3514FF7BD7D2567565646FEAB0C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9077F5AA0ABD634E60E83E37D2A650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F2BF6832049481474BD4F9185B961C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E446F0417F57D47768278973A364D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0425EADAAAE60CFBE5674912317427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D41CB1353474299587A71FE52EC357 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28297042492AD3B7E1EFD1FBFA655B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91369B378B8E2C7057846E0D8E5E52D /* Foundation.framework in Frameworks */,
+				027043AE210EF10A365B63F92E09B1E9 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D8B16912175A7E511A88FF61907EED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				457F613452F8F5E4F2E307BEC8ADB8E7 /* Haneke.modulemap */,
+				91249F6A03817CF2C41D02315A69A13D /* Haneke.xcconfig */,
+				25F34E7C772AD0C740A77CF93B59A792 /* Haneke-dummy.m */,
+				2F528CDF3C5B75A3A56C2EE11A5FDB87 /* Haneke-prefix.pch */,
+				93BE1D5643556E3813144EB79E98502C /* Haneke-umbrella.h */,
+				2838C0338688B5CD6FA02C968DE9F4D9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Haneke";
+			sourceTree = "<group>";
+		};
+		1FADA36CBBEBF5DF6696194D87183478 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */,
+				635A4BD1CEF7E623C71F97A54BFC3616 /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41D6EC2109C16F3123A04042FC327719 /* Pods-PokedexLab */ = {
+			isa = PBXGroup;
+			children = (
+				C21F6BFAFBD45B1CE3581EA3F621283D /* Info.plist */,
+				A66608D8CC6F9D00F3D5151E3A3F1215 /* Pods-PokedexLab.modulemap */,
+				F048F09F4493A87F93BB01CCF442ED53 /* Pods-PokedexLab-acknowledgements.markdown */,
+				B959C98D9625003C6EC52BA78105CE88 /* Pods-PokedexLab-acknowledgements.plist */,
+				A8B1DED6AFC71C1C8EE1BA407A7CB752 /* Pods-PokedexLab-dummy.m */,
+				BB9DFDD51D4289828E066719BA022A34 /* Pods-PokedexLab-frameworks.sh */,
+				CB51C10E5717F5FE990050BDBE9C54B1 /* Pods-PokedexLab-resources.sh */,
+				AFF59E369C5619E70640F8671AA76920 /* Pods-PokedexLab-umbrella.h */,
+				5BEDBB5D12F12848D38EE3F18EB8D46A /* Pods-PokedexLab.debug.xcconfig */,
+				19EBCE383FBD496956C99778B80DD944 /* Pods-PokedexLab.release.xcconfig */,
+			);
+			name = "Pods-PokedexLab";
+			path = "Target Support Files/Pods-PokedexLab";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FADA36CBBEBF5DF6696194D87183478 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57D8FB7108EF77ED9B466BF897C29842 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41D6EC2109C16F3123A04042FC327719 /* Pods-PokedexLab */,
+				9CBBEEA7D8077EBFFB98A13FFAEE76CC /* Pods-PokedexLabTests */,
+				E15910B3F38E3EEE733D797FF451E026 /* Pods-PokedexLabUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BB281CB0232FF4F350DD88F5F0BB8DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7D5CE45E9FDEC7FE8B9914450DE07A /* Haneke.framework */,
+				DF6298AEF903D5D10306EA6C26A8C7E4 /* Pods_PokedexLab.framework */,
+				AFFC901DED64CA30AFDEA02167B8EB2A /* Pods_PokedexLabTests.framework */,
+				1CF07A2069023A2E4A56A8896A15AAAB /* Pods_PokedexLabUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				8330A4106FE1D7A645DDCD30B0079ADD /* Pods */,
+				7BB281CB0232FF4F350DD88F5F0BB8DC /* Products */,
+				57D8FB7108EF77ED9B466BF897C29842 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8330A4106FE1D7A645DDCD30B0079ADD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F38886731CE907EE40454533841624AE /* Haneke */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CBBEEA7D8077EBFFB98A13FFAEE76CC /* Pods-PokedexLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7506D08CDFF1B66A8D9BF8FC1C3798F /* Info.plist */,
+				736A1528B0C92EB79982C4A95F35240E /* Pods-PokedexLabTests.modulemap */,
+				4F1540BB829D566AEC131AA3F9159D3C /* Pods-PokedexLabTests-acknowledgements.markdown */,
+				839134B8F2A228EA3A4F426203112408 /* Pods-PokedexLabTests-acknowledgements.plist */,
+				4C28E116D208544AEA1D38768FFEEC20 /* Pods-PokedexLabTests-dummy.m */,
+				2F1E8D0E86EF38AAF926C5F2759D5C3F /* Pods-PokedexLabTests-frameworks.sh */,
+				392C587AC5ED54E20476503C177A9F2F /* Pods-PokedexLabTests-resources.sh */,
+				45B7DBD1DBA96136233C46FBBCF5EF7A /* Pods-PokedexLabTests-umbrella.h */,
+				20FDAE5FABE48100F63DF1DD867981A0 /* Pods-PokedexLabTests.debug.xcconfig */,
+				1FCE65B655B1D481643A8691754DEB71 /* Pods-PokedexLabTests.release.xcconfig */,
+			);
+			name = "Pods-PokedexLabTests";
+			path = "Target Support Files/Pods-PokedexLabTests";
+			sourceTree = "<group>";
+		};
+		E15910B3F38E3EEE733D797FF451E026 /* Pods-PokedexLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F1BA83A1E432FF02B8A8864D2289EF1 /* Info.plist */,
+				04D3F6FD84EB87E0C91444B18948F1BC /* Pods-PokedexLabUITests.modulemap */,
+				DBC60D422DD3761A17FB63004F32A10C /* Pods-PokedexLabUITests-acknowledgements.markdown */,
+				317A50CC71CB82DA55BF19B3F8738A38 /* Pods-PokedexLabUITests-acknowledgements.plist */,
+				24C394B62B39499464E5EE93A9C3CC50 /* Pods-PokedexLabUITests-dummy.m */,
+				59D81DFC4D4C8A175508FD38038E5E56 /* Pods-PokedexLabUITests-frameworks.sh */,
+				18A2BD6370B0763F95821C231B4EDC5C /* Pods-PokedexLabUITests-resources.sh */,
+				84EFFFB7D0D9233C255DDFCCADA14D96 /* Pods-PokedexLabUITests-umbrella.h */,
+				CD924E91AA5FBB1053B3A460264617D1 /* Pods-PokedexLabUITests.debug.xcconfig */,
+				D27A25229DE88EEB33CE38DA7FFED536 /* Pods-PokedexLabUITests.release.xcconfig */,
+			);
+			name = "Pods-PokedexLabUITests";
+			path = "Target Support Files/Pods-PokedexLabUITests";
+			sourceTree = "<group>";
+		};
+		F38886731CE907EE40454533841624AE /* Haneke */ = {
+			isa = PBXGroup;
+			children = (
+				EF8713BD4C355F5F6EBB90C4373F479E /* Haneke.h */,
+				E9AACFDF298774E6F97088555BE4C1C3 /* HNKCache.h */,
+				2FD6B42EB5784338B96CFD586E350966 /* HNKCache.m */,
+				30907AE7ABA34C0F0023E7AEE3DDCCB4 /* HNKDiskCache.h */,
+				9FE01B568B061EF4032CCAFA75EDA4F1 /* HNKDiskCache.m */,
+				D9964F8D7B8C7B5446EEB3E210FB3A1B /* HNKDiskFetcher.h */,
+				FF793C1A4BD1BDA1B28FC0D6995EA050 /* HNKDiskFetcher.m */,
+				52927251E7D6F9C8A645C16E8C81D3C6 /* HNKNetworkFetcher.h */,
+				333DDE21A9608B9876DD7B89AE87FC52 /* HNKNetworkFetcher.m */,
+				8A63760C7D916FC5853849AC63FCAEC4 /* HNKSimpleFetcher.h */,
+				9652CA9D6F90CE7D4D02FE6C1B51C9CF /* HNKSimpleFetcher.m */,
+				E94CD03F179267865FA352F156FB3F08 /* UIButton+Haneke.h */,
+				5B2D91D8FC4219081B70171FE50D539C /* UIButton+Haneke.m */,
+				F7A7F95D54BC2BC001019D7FE8A43A9E /* UIImageView+Haneke.h */,
+				AFC24B9BFAB586AF1B0B00F1AFE9497F /* UIImageView+Haneke.m */,
+				8AE04BA1D062F1E073B0BC4C17669918 /* UIView+Haneke.h */,
+				C7F3B15B654EA41006A30478928034C2 /* UIView+Haneke.m */,
+				06D8B16912175A7E511A88FF61907EED /* Support Files */,
+			);
+			name = Haneke;
+			path = Haneke;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C26780B905BA8FD1CCBA667638E9D99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F96389ABD720172033AA3142CBCCB0 /* Pods-PokedexLab-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51FBEBAA7FCD25F32658AF60A09BF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549D2198507E4F41B2C4990723B1199C /* Pods-PokedexLabUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B457F31D51AEE5C4F48586A15F635FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD28302941BF906F4EDDC038C141861 /* Haneke-umbrella.h in Headers */,
+				2341425E462165C23B8F2BA9A8F1B283 /* Haneke.h in Headers */,
+				68BF135FEF6DF1F1B034754CFC56F438 /* HNKCache.h in Headers */,
+				E809685890040F1B42905C266BFDBC62 /* HNKDiskCache.h in Headers */,
+				DF2DC79BF0A7E933C8AD0BE51E743DFB /* HNKDiskFetcher.h in Headers */,
+				6C0267A86EF3FB0A7C8C76BC8B92D957 /* HNKNetworkFetcher.h in Headers */,
+				F4A7685FDDC061C286D6DD07F15594C9 /* HNKSimpleFetcher.h in Headers */,
+				563C33CE6FEE824303FC1749040ECA31 /* UIButton+Haneke.h in Headers */,
+				CAC12A3959E82EBD5E2EEF740702378E /* UIImageView+Haneke.h in Headers */,
+				689092F53E42FF7A6657420B541571D1 /* UIView+Haneke.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A93FE1C4A0CB3AC0F89398A71151CD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F7FF0F6AB7999F1954413075842865 /* Pods-PokedexLabTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3529A633B3A2CEA3FF2C497047E3E9B9 /* Pods-PokedexLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6D184A6B08F459C7438F059D2C1288 /* Build configuration list for PBXNativeTarget "Pods-PokedexLabUITests" */;
+			buildPhases = (
+				AFD2E12E97A3BB64E612DDA4D1E68DB3 /* Sources */,
+				36F2BF6832049481474BD4F9185B961C /* Frameworks */,
+				1A51FBEBAA7FCD25F32658AF60A09BF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PokedexLabUITests";
+			productName = "Pods-PokedexLabUITests";
+			productReference = 1CF07A2069023A2E4A56A8896A15AAAB /* Pods_PokedexLabUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C9A027BD2B54E970B7931EF41EE0163 /* Haneke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F4A0A52F8358AF68AF244EDFFD2630 /* Build configuration list for PBXNativeTarget "Haneke" */;
+			buildPhases = (
+				9433C8AFF30FCF750FE7351891EDDA07 /* Sources */,
+				F28297042492AD3B7E1EFD1FBFA655B3 /* Frameworks */,
+				3B457F31D51AEE5C4F48586A15F635FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haneke;
+			productName = Haneke;
+			productReference = ED7D5CE45E9FDEC7FE8B9914450DE07A /* Haneke.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9C85C88CAF3FA3D60F331C069F50D12 /* Pods-PokedexLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C933847EA31A04752134AD8FCC1EFD /* Build configuration list for PBXNativeTarget "Pods-PokedexLab" */;
+			buildPhases = (
+				3EF33C29B807BFAAEA7DBC5F78B337AE /* Sources */,
+				35D3514FF7BD7D2567565646FEAB0C8C /* Frameworks */,
+				0C26780B905BA8FD1CCBA667638E9D99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8873C13ADC50689E29B42D6968D0DC7F /* PBXTargetDependency */,
+			);
+			name = "Pods-PokedexLab";
+			productName = "Pods-PokedexLab";
+			productReference = DF6298AEF903D5D10306EA6C26A8C7E4 /* Pods_PokedexLab.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA71217A58FEFB61D6B143273186C387 /* Pods-PokedexLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95ABC7CB3AB6D785097B73588414A789 /* Build configuration list for PBXNativeTarget "Pods-PokedexLabTests" */;
+			buildPhases = (
+				357B763B251E656E3933D279D084BA16 /* Sources */,
+				ED0425EADAAAE60CFBE5674912317427 /* Frameworks */,
+				4A93FE1C4A0CB3AC0F89398A71151CD1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PokedexLabTests";
+			productName = "Pods-PokedexLabTests";
+			productReference = AFFC901DED64CA30AFDEA02167B8EB2A /* Pods_PokedexLabTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7BB281CB0232FF4F350DD88F5F0BB8DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C9A027BD2B54E970B7931EF41EE0163 /* Haneke */,
+				B9C85C88CAF3FA3D60F331C069F50D12 /* Pods-PokedexLab */,
+				CA71217A58FEFB61D6B143273186C387 /* Pods-PokedexLabTests */,
+				3529A633B3A2CEA3FF2C497047E3E9B9 /* Pods-PokedexLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		357B763B251E656E3933D279D084BA16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E5C78519E7F85D4FD1F8D1B2CB4B43 /* Pods-PokedexLabTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF33C29B807BFAAEA7DBC5F78B337AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F74A893DC87DAC2FAB1702AE0A9888 /* Pods-PokedexLab-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9433C8AFF30FCF750FE7351891EDDA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2A08F5395464D9A6F6EBEB0D83C3B8 /* Haneke-dummy.m in Sources */,
+				C94A609F6A546B2BEE4615CE3D199F8A /* HNKCache.m in Sources */,
+				83033B4410531030274DDC998E4A637F /* HNKDiskCache.m in Sources */,
+				9BDE021DFA1EBF7E4FFC999C332DF797 /* HNKDiskFetcher.m in Sources */,
+				BEF86E92A8E855998E177F315B13C3D2 /* HNKNetworkFetcher.m in Sources */,
+				50D81CF11F67A5CC76AFFFA37AA137C5 /* HNKSimpleFetcher.m in Sources */,
+				B42EC0EC6B575D6254494FFAA1B9A805 /* UIButton+Haneke.m in Sources */,
+				C7B391342328A03F785686B2541CF95E /* UIImageView+Haneke.m in Sources */,
+				4087F3E3F880CE272FD8176E514F1C30 /* UIView+Haneke.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD2E12E97A3BB64E612DDA4D1E68DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438206579B92997964C03887110E6859 /* Pods-PokedexLabUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8873C13ADC50689E29B42D6968D0DC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Haneke;
+			target = 9C9A027BD2B54E970B7931EF41EE0163 /* Haneke */;
+			targetProxy = 20320694AD930FAE2B7B5657199AA530 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16B8736442500F1DF6CFF1EFDD74CB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27A25229DE88EEB33CE38DA7FFED536 /* Pods-PokedexLabUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokedexLabUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokedexLabUITests/Pods-PokedexLabUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokedexLabUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ECB615083F816976E6144D6B5CCE3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD924E91AA5FBB1053B3A460264617D1 /* Pods-PokedexLabUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokedexLabUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokedexLabUITests/Pods-PokedexLabUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokedexLabUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		663226B5E713CA38073B9F7C222D9EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FCE65B655B1D481643A8691754DEB71 /* Pods-PokedexLabTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokedexLabTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokedexLabTests/Pods-PokedexLabTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokedexLabTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6707FF17AE1728EB4A8A0ED45A6CB27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BEDBB5D12F12848D38EE3F18EB8D46A /* Pods-PokedexLab.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokedexLab/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokedexLab/Pods-PokedexLab.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokedexLab;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6976FAF24D01B45C8887F3B76FEEA3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91249F6A03817CF2C41D02315A69A13D /* Haneke.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Haneke/Haneke-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Haneke/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Haneke/Haneke.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Haneke;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98965C3E1CC1B28F441E559910416EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91249F6A03817CF2C41D02315A69A13D /* Haneke.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Haneke/Haneke-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Haneke/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Haneke/Haneke.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Haneke;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B86B15547E600AA6743EBB47054B30EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FDAE5FABE48100F63DF1DD867981A0 /* Pods-PokedexLabTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokedexLabTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokedexLabTests/Pods-PokedexLabTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokedexLabTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D797D490DC0460D8571BC9F9917B4BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19EBCE383FBD496956C99778B80DD944 /* Pods-PokedexLab.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokedexLab/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokedexLab/Pods-PokedexLab.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokedexLab;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC8212A50BC1BCA4BF1B8BC800078F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8212A50BC1BCA4BF1B8BC800078F2F /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E6D184A6B08F459C7438F059D2C1288 /* Build configuration list for PBXNativeTarget "Pods-PokedexLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECB615083F816976E6144D6B5CCE3CD /* Debug */,
+				16B8736442500F1DF6CFF1EFDD74CB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F4A0A52F8358AF68AF244EDFFD2630 /* Build configuration list for PBXNativeTarget "Haneke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6976FAF24D01B45C8887F3B76FEEA3A5 /* Debug */,
+				98965C3E1CC1B28F441E559910416EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C933847EA31A04752134AD8FCC1EFD /* Build configuration list for PBXNativeTarget "Pods-PokedexLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6707FF17AE1728EB4A8A0ED45A6CB27C /* Debug */,
+				D797D490DC0460D8571BC9F9917B4BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95ABC7CB3AB6D785097B73588414A789 /* Build configuration list for PBXNativeTarget "Pods-PokedexLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86B15547E600AA6743EBB47054B30EF /* Debug */,
+				663226B5E713CA38073B9F7C222D9EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

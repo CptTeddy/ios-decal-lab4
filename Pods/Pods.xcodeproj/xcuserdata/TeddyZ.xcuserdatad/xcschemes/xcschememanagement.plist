@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Haneke.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PokedexLab.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PokedexLabTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PokedexLabUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3529A633B3A2CEA3FF2C497047E3E9B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9C9A027BD2B54E970B7931EF41EE0163</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B9C85C88CAF3FA3D60F331C069F50D12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CA71217A58FEFB61D6B143273186C387</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
